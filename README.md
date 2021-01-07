@@ -10,7 +10,9 @@ The program constitutes of 4 python files:
 
 Let's talk about each in detail.
 
-##snake.py  
+snake.py  
+======
+
 This file is responsible for all the snake related activities. 
 These are all defined in 
 <font color="#ff4500"> class </font> Snake.
@@ -67,7 +69,9 @@ Thus, a call to add_segment() is made where we pass position of the last segment
 
 * Moves the snake in right direction(east) unless it is headed left(west). We do so by changing the heading of the head segment. All the other segments follow in lead.
 
-##food.py  
+food.py  
+======
+
 This file is responsible for all the food related activities. 
 These are all defined in 
 <font color="#ff4500"> class </font> Food which inherits from turtle method's Turtle class.
@@ -81,7 +85,9 @@ having 10px by 10px size, and is generated at a random (x, y) location within th
 
 * Method to recreate the food of the snake at a random (x, y) location within the range of [-280, 280].
 
-##scoreboard.py  
+scoreboard.py  
+======
+
 This file is responsible for managing the scoreboard. 
 All of this work has been done in  
 <font color="#ff4500"> class </font> ScoreBoard which inherits from turtle method's Turtle class.
@@ -105,7 +111,9 @@ All of this work has been done in
 
 * Method to print "GAME OVER" in red at the center of the screen.
 
-##main.py  
+main.py 
+======
+
 This is where our program's execution takes place. 
 
 1. We start off by importing the 3 classes that we made above
